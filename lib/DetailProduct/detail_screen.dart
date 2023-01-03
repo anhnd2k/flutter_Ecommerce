@@ -12,6 +12,7 @@ class DetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: product.color,
       appBar: buildAppBar(context),
       body: BodyProduct(product: product,),
     );

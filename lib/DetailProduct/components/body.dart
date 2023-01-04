@@ -213,7 +213,7 @@ class _CartCouterState extends State<CartCouter> {
             icon: Icons.remove,
             press: () {
               setState(() {
-                if (numOfItems == 0) return;
+                if (numOfItems == 1) return;
                 numOfItems -= 1;
               });
             }),
